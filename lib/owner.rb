@@ -56,12 +56,11 @@ class Owner
    pet.owner = nil #remember owners are leaving home to nyc so pets are being given away to adoption/hound and will no longer have owners therefore we use nil 
    pet.mood = "nervous"
 
+    end 
   end 
-end 
-def list_pets
+  
+  def list_pets
   "I have 2 dog(s), and 2 cat(s)."
-end 
-end 
-  
-  
+  end 
+
 end
